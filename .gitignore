@@ -1,0 +1,22 @@
+# Binaries
+plugin-pagerduty
+pagerduty
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Go coverage output
+*.out
+
+# Go module download cache
+vendor/
+
+# macOS
+.DS_Store
