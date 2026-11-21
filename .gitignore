@@ -1,22 +1,23 @@
 # Binaries
-plugin-pagerduty
-pagerduty
-
-# Go build artifacts
 *.exe
-*.exe~
-*.dll
-*.so
-*.dylib
-
-# Test binary
 *.test
-
-# Go coverage output
 *.out
+/dist/
 
-# Go module download cache
-vendor/
+# Internal dev artifacts — not for public repos
+AGENTS.md
+CURRENT_STATE.md
+NEXT_SESSION.md
+ROADMAP.md
+docs/execution-log/
+docs/phase-zero/
+docs/research/
 
-# macOS
+# IDE
+.idea/
+.vscode/
+*.swp
 .DS_Store
+
+# Plugin binary
+plugin-pagerduty
